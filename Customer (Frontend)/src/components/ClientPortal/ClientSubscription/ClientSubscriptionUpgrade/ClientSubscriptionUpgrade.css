@@ -1,0 +1,20 @@
+.card-pay {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    border: 1px solid #3A7DD8;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.pay-btn {
+    margin-bottom: 30px;
+    margin-top: 15px;
+    border: 1px solid #cbcbcb;
+    background-color: #F2F3F5;
+    width: 270px;
+    border-radius: 100px;
+    color: grey;
+    font-size: 20px;
+}

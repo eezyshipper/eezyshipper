@@ -1,0 +1,20 @@
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+}
+
+.logo-img {
+    height: auto;
+    width: 20%;
+}
+
+.titlebar-btn {
+    background-color: #29c9f8;
+    color: white;
+    padding: 5px 25px 5px 25px;
+    border-radius: 20px;
+    font-size: 0.875rem;
+    font-weight: 500;
+} 

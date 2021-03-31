@@ -1,0 +1,50 @@
+.order-store {
+    background-color: #ddf7ff;
+}
+
+.icon-border {
+    background-color: #397dd9;
+    height: 2px;
+    width: 280px;
+}
+
+.stores {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 50px 0px;
+}
+
+.store-img {
+    padding: 20px 0px;
+    height: 70px;
+    width: auto;
+}
+
+@media screen and (max-width: 575px){
+    .country-tab {
+        top: 50px;
+        left: 30%;
+        position: relative;
+    }
+
+    .stores {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 50px 0px;
+    }
+}
+
+
+@media screen and (max-width: 767px){
+    .stores {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 50px 0px;
+    }
+}

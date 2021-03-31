@@ -1,0 +1,30 @@
+.how-it-group {
+    display: flex;
+    justify-content: space-around;
+}
+
+.how-it-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.how-it-circle {
+    border: 2px dotted #3A7DD8;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.how-it-circle h1 {
+    color: #3A7DD8;
+    font-weight: bold;
+}
+
+.how-it-items p {
+    text-align: center;
+    font-size: 13px;
+}

@@ -1,0 +1,48 @@
+.dashboard-holder {
+  transition: right .5s;
+}
+
+.left-menu {
+  max-width: 220px;
+}
+
+.page-fade-appear {
+  opacity: 0;
+  position: absolute;
+}
+
+.page-fade-appear.page-fade-appear-active {
+  opacity: 1;
+  transition: opacity 300ms linear 300ms;
+}
+
+.page-fade-enter {
+  opacity: 0;
+  position: absolute;
+}
+
+.page-fade-enter.page-fade-enter-active {
+  opacity: 1;
+  transition: opacity 300ms linear 300ms;
+}
+
+.page-fade-exit {
+  opacity: 1;
+  position: absolute
+}
+
+.page-fade-exit.page-fade-exit-active {
+  opacity: 0;
+  transition: opacity 300ms linear;
+}
+
+button:focus {
+  box-shadow: none !important;
+  outline: none;
+}
+
+@media screen and (max-width: 991px){
+  .left-menu {
+    display: none;
+  }
+}

@@ -1,0 +1,92 @@
+.faq {
+    background-image: linear-gradient(to bottom right, #3E9EE3,#54BAE2, #6CEAF7);
+    padding: 30px 0px;
+}
+
+.faq h1 {
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+}
+
+.item_active, .faq-category:hover {
+    border: 2px solid #397dd9;
+    outline: none;
+}
+
+.item_active svg path{
+    color: #397dd9;
+}
+
+.faq-category {
+    background-color: white;
+    border-radius: 10%;
+    cursor: pointer;
+    margin: 30px;
+    width: 170px;
+    height: 170px;
+    text-align: center;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item svg{
+    font-size: 4em;
+    color: #e3e3e3;
+    padding-bottom: 20px;
+}
+
+.item h6 {
+    font-weight: bold;
+}
+
+.item:hover svg path {
+    color: #397dd9;
+}
+
+.faq-content {
+    margin: 20px 0px;
+    padding: 50px;
+    outline: none;
+}
+
+.active {
+    border: none;
+    outline: none;
+}
+
+.panel {
+    margin: 0px 30px;
+    margin-bottom: 40px;
+    font-size: 15px;
+    background-color: #f5f9fe;
+    max-height: 0;
+    overflow: hidden;
+    outline: none;
+    transition: max-height 0.2s ease-out;
+}
+
+.panel p {
+    line-height: 2;
+}
+
+.panel-border {
+    border-bottom: 1px solid black;
+}
+
+.accordion {
+    background-color: white;
+    color: #000;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    transition: 0.4s;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}

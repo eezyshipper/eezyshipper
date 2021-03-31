@@ -1,0 +1,51 @@
+.shop-world {
+    padding: 20px 0px;
+}
+
+.shop-world h3 {
+    font-size: 1.5rem;
+}
+
+.hr-border {
+    border-radius: 5px;
+    width: 80px;
+    height: 2px;
+    background-color: #29c9f8;
+    margin: 0 auto;
+}
+
+.shop-items {
+    padding: 50px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pay {
+    text-align: center;
+    border: 2px solid #397dd9;
+    border-radius: 20px;
+    padding: 50px 0px;
+    /* filter: drop-shadow(0px 5px 3px black); */
+    box-shadow: 0px 2px 3px #397dd9;
+}
+
+.pay p {
+    font-size: 1rem;
+    font-weight: bold;
+    padding-top: 25px;
+}
+
+.pay span {
+    font-size: 0.875rem;
+}
+
+.icon {
+    width: 25%;
+    height: auto;
+}
+
+@media screen and (max-width: 575px){
+    .pay {
+        margin-bottom: 30px;
+    }
+}

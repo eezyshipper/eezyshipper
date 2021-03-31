@@ -1,0 +1,25 @@
+.left-menu-item {
+    background-color: #B2B2B2;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    margin-bottom: 15px;
+    margin-left: 13px;
+    min-width: 140px;
+}
+
+.left-menu-links {
+    padding-top: 10px;
+    margin-left: 13px;
+}
+
+.left-menu-links p {
+    font-size: 12px;
+    color: #858585;
+}
+
+.menu_active {
+    background-color: #29CAF8;
+    color: white;
+}

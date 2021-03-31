@@ -1,0 +1,36 @@
+.terms {
+    background-image: linear-gradient(to bottom right, #3E9EE3,#54BAE2, #6CEAF7);
+    padding: 65px 20px;
+}
+
+.terms h1 {
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+}
+
+.address-bottom {
+    background-color: #77e0ff;
+}
+
+.bottom-text {
+    padding: 50px 0px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.address-bottom h3 {
+    color: #397dd9;
+    font-weight: bold;
+}
+
+.reg-btn {
+    background-color: #397dd9;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 50px;
+    font-weight: bold;
+    font-size: 16px;
+}

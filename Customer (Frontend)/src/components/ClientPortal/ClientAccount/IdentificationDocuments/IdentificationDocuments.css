@@ -1,0 +1,42 @@
+.indiv-text {
+    padding-left: 30px;
+    font-size: 12px;
+    line-height: 0.5;
+}
+
+.identify p{
+    font-size: 16px;
+}
+
+.upload-file {
+    border: 2px dotted #3A7DD8;
+    padding: 20px 50px;
+    border-radius: 15px;
+    text-align: center;
+    width: 270px;
+}
+
+.upload-file svg path {
+    color: #3A7DD8;
+}
+
+.max-file-size {
+    font-size: 12px;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.skip-btn {
+    margin: 20px 0px 30px;
+    border: 1px solid #cbcbcb;
+    background-color: #F2F3F5;
+    width: 280px;
+    border-radius: 100px;
+    color: grey;
+    font-size: 20px;
+}
+
+.btn:hover {
+    color: #212529;
+    text-decoration: none;
+}

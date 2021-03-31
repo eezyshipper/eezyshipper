@@ -1,0 +1,116 @@
+.top-menu-bar {
+    justify-content: space-between;
+    padding: 25px 0px 25px 10px;
+    padding-right: 10%;
+}
+
+.eezy-logo {
+    height: auto;
+    width: 170px;
+}
+
+.top-menu-btn {
+    font-size: 14px;
+    color: #A2A2A2;
+    margin-right: 35px;
+}
+
+.top-menu-btn:hover {
+    color: #3A7DD8;
+    text-decoration: underline;
+}
+
+.openbtn {
+    font-size: 25px;
+    position: absolute;
+    cursor: pointer;
+    display: none;
+}
+
+.responsive-nav {
+    display: none;
+}
+
+.sidebar {
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #3A7DD8;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+    padding-bottom: 20px;
+    height: 100%;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: -30px;
+    font-size: 36px;
+    margin-right: 50px;
+}
+
+.sidebar a {
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+    text-align: left;
+}
+
+.sidebar a:hover {
+    color: black;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 991px){
+    .top-menu-btn {
+        display: none;
+    }
+
+    .openbtn{
+        display: block;
+    }
+
+    .responsive-nav {
+        display: block;
+    }
+
+    .left-menu-mobile {
+        margin-left: 20px;
+    }
+
+    .left-menu-item {
+        background-color: #4f33c9;
+        text-align: center;
+        width: 160px;
+        border-radius: 5px;
+        color: white;
+        font-size: 13px;
+        margin-bottom: 15px;
+    }
+
+    .top-menu-btn1 {
+        color: white;
+        margin-right: 40px;
+    }
+
+    .top-menu-btn1:hover {
+        color: black;
+        text-decoration: underline;
+    }
+
+    .left-menu-links-mbl {
+        display: block;
+        padding-left: 20px;
+    }
+
+    .left-menu-links-mbl p {
+        font-size: 12px;
+    }
+}

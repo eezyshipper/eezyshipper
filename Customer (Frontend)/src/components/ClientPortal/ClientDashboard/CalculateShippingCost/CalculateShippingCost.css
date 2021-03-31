@@ -1,0 +1,29 @@
+@media screen and (min-width: 1200px) and (max-width: 1419px){
+    .dash-cmn-right {
+        width: 78%;
+    }
+}
+
+.cal-shipping {
+    display: flex;
+    align-items: baseline;
+    background-color: #f1f3f5;
+    border-bottom: 1px solid #cbcbcb;
+    padding-top: 20px;
+    border-radius: 8px 8px 0px 0px;
+    margin-bottom: 30px;
+    text-align: left;
+    height: 60px;
+    font-size: 15px;
+}
+
+.cal-shipping:hover {
+    border-bottom: 1px solid black;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+}

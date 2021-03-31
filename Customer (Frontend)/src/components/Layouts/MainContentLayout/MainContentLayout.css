@@ -1,0 +1,16 @@
+.mainContent{
+    border-radius: 10px;
+    background-color: white;
+    padding: 15px 20px;
+    margin-bottom: 30px;
+}
+
+.customShadow{
+    filter: drop-shadow(-5px 7px 5px #cbcbcb);
+}
+
+select {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}

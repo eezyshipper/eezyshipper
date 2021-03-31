@@ -1,0 +1,66 @@
+.subscription-plans {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+
+.subs-plan {
+    width: 40%;
+    height: 600px;
+    padding: 15px 10px;
+    border-radius: 10px;
+    border: 1px solid #3A7DD8;
+    position: relative;
+}
+
+.plan-active img {
+    width: 60px;
+    height: auto;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.subs-plan img {
+    height: 90px;
+    width: auto;
+}
+
+.basic-div {
+    position: absolute;
+    bottom: 42px;
+}
+
+.upgrade-div {
+    position: absolute;
+    bottom: 20px;
+}
+
+.upgrade-btn {
+    font-size: 13px;
+    background-color: #3A7DD8;
+    color: white;
+}
+
+@media screen and (max-width: 575px){
+    .subs-plan {
+        width: 50%;
+        height: 600px;
+        margin-right: 10px;
+    }
+}
+
+.currentplan-mbl {
+    background-color: #C1FEC2;
+    padding: 10px;
+    margin: 15px 0px;
+    border-radius: 10px;
+    width: 250px;
+    display: none;
+}
+
+@media screen and (max-width: 991px){
+    .currentplan-mbl {
+        display: block;
+    }
+}

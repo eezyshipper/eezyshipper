@@ -1,0 +1,148 @@
+.parcel-filter-option {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.paypending_div {
+    background-color: #fff;
+    margin: 15px 5px 20px;
+    border-radius: 15px;
+    filter: drop-shadow(-2px 1px 3px #cbcbcb);
+    padding: 10px;
+}
+
+.filter_status {
+    flex-wrap: nowrap;
+}
+
+.parcel_button {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.active_list {
+    color: #29CAF8;
+    background-color: white;
+    text-decoration: underline;
+}
+
+.searchBar {
+    margin-right: 20px;
+}
+
+.searchBox {
+    border: 1px solid grey;
+    height: 34px;
+    border-radius: 40px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+}
+
+.searchInput {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0px 0px;
+    margin: 0px 5px;
+    color: black;
+    font-size: 14px;
+    transition: 0.5s ease;
+    width: 0px;
+}
+
+input {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.searchButton {
+    float: right;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.7s ease;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    right: 5px;
+}
+
+.table-row-border {
+    border-bottom: 1px solid lightgray;
+}
+
+.parcel-table-data th, td {
+    padding: 10px 55px 10px 0px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.parcel-link-table th, td {
+    padding: 10px 50px 10px 0px;
+    font-size: 12px;
+    text-align: left;
+}
+
+.table_mbl {
+    display: none;
+    font-size: 14px;
+}
+
+.table_mbl th, td {
+    padding: 0px 30px 0px 0px;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 575px){
+    .parcel-table-data th, td {
+        padding: 10px 55px 10px 0px;
+        font-size: 14px;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .parcel-table-data th, td {
+        padding: 10px 80px 10px 0px;
+        font-size: 14px;
+        text-align: left;
+    }
+}
+
+
+@media screen and (max-width: 991px){
+    .parcel-table-data th, td {
+        padding: 10px 95px 10px 0px;
+        font-size: 14px;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .hide_col {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .hide_col {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .hide_col {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .table_mbl {
+        display: block;
+    }
+}

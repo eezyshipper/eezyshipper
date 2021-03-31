@@ -1,0 +1,148 @@
+/* .faq-content {
+    margin: 20px 0px;
+    padding: 50px;
+    outline: none;
+} */
+
+.faq{
+    background-image: linear-gradient(to bottom right, #3E9EE3,#54BAE2, #6CEAF7);
+    padding: 30px 0px;
+}
+
+.faq h1{
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+}
+.item i{
+  font-size: 36px;
+  color: #e3e3e3;
+  padding-bottom: 20px;
+}
+.item h6{
+  font-weight: bold;
+}
+
+.faq-category{
+    background-color: white;
+    border-radius: 10%;
+    cursor: pointer;
+    margin: 30px;
+    width: 170px;
+    height: 170px;
+    text-align: center;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item_active , .faq-category:hover{
+    border: 2px solid #397dd9;
+    outline: none;
+}
+.item:hover i{
+  color:#397dd9 ;
+}
+.item_active i{
+  color: #397dd9;
+}
+
+.faq-category:hover .item i{
+  color: #397dd9;
+}
+
+
+.general-text{
+    color: black;
+}
+.panel p{
+  line-height: 2;
+}
+
+
+ /* Style the buttons that are used to open and close the accordion panel */
+ .accordion {
+    background-color: white;
+    color: #000;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    transition: 0.4s;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+.accordion:hover{
+    background-color: white;
+    color: #000;
+}
+
+.accordion:active{
+    border : none
+}
+
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+
+  .active{
+    border: none;
+    outline: none; 
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    /* display : none; */
+    margin: 0px 30px;
+    margin-bottom: 40px;
+    font-size: 15px;
+    background-color: #f5f9fe;
+    /* max-height: 0; */
+    /* overflow: hidden;
+    outline: none; */
+    transition: max-height 0.2s ease-out;
+}
+
+/* .accordion:focus .panel {
+    display : block;
+    margin: 0px 30px;
+    margin-bottom: 40px;
+    font-size: 15px;
+    background-color: #f5f9fe;
+    max-height: 139px;
+    overflow: hidden;
+    outline: none;
+    transition: max-height 0.2s ease-out;
+} */
+
+ /* .accordion:active .panel{
+    max-height: 139px;
+}  */
+ 
+  .panel-border{
+    border-bottom: 1px solid black;   
+  }
+
+  .accordion:after {
+    content: '+'; 
+    color: #397dd9;
+    float: right;
+    margin-left: 5px;
+    outline: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: #397dd9; 
+    
+  }
+  
+  .accordion:active .accordion:after {
+    content: "-"; 
+    outline: none;
+    color: #397dd9;
+    font-size: 24px;
+    font-weight: bold;
+   
+  }

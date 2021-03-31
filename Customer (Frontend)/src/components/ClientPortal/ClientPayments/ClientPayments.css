@@ -1,0 +1,57 @@
+.add-card-section {
+    width: 320px;
+    position: relative;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.creditcard-img {
+    max-width: 270px;
+    height: auto;
+    opacity: 0.2;
+}
+
+.add-card-btn {
+    margin-bottom: 30px;
+    background-color: #3A7DD8;
+    width: 280px;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.add-card-section {
+    width: 320px;
+    position: relative;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.addcard-form-style {
+    border: none;
+    padding: 2px 10px;
+    background-color: #f1f3f5;
+    border-bottom: 1px solid #cbcbcb;
+    border-radius: 8px 8px 0px 0px;
+    height: 60px;
+    font-size: 16px;
+}
+
+.addcard-form-style:hover {
+    border-bottom: 1px solid black;
+}
+
+.avail-card-margin {
+    padding-left: 30px;
+    margin-bottom: 50px;
+}
+
+.avail-card {
+    border: 1px solid #3A7DD8;
+    padding: 5px;
+    border-radius: 12px;
+    width: 140px;
+    text-align: center;
+}
+

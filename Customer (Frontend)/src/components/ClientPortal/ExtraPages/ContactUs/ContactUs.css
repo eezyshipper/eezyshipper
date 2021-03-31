@@ -1,0 +1,17 @@
+.border {
+    border-radius: 5px;
+    width: 80px;
+    height: 2px;
+    background-color: #29c9f8;
+    margin: 0 auto;
+}
+
+.how-it-icons {
+    padding-top: 40px;
+}
+
+.tower-img {
+    width: 40%;
+    height: auto;
+    margin: 0 auto;
+}
